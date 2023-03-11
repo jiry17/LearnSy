@@ -1,0 +1,55 @@
+{
+   "default" : 10,
+   "depth" : 0,
+   "weight" : [
+      {
+         "name" : "@bvxor",
+         "weight" : 3.8712010109078911
+      },
+      {
+         "name" : "@bvnot",
+         "weight" : 3.1780538303479458
+      },
+      {
+         "name" : "@Param",
+         "weight" : 0.87546873735390007
+      },
+      {
+         "name" : "@bvinc",
+         "weight" : 2.7725887222397811
+      },
+      {
+         "name" : "@bvshl",
+         "weight" : 3.8712010109078911
+      },
+      {
+         "name" : "@Const",
+         "weight" : 3.1780538303479458
+      },
+      {
+         "name" : "@bvdec",
+         "weight" : 2.7725887222397811
+      },
+      {
+         "name" : "@bvneg",
+         "weight" : 2.2617630984737906
+      },
+      {
+         "name" : "@bvor",
+         "weight" : 2.2617630984737906
+      },
+      {
+         "name" : "@bvuleq",
+         "weight" : 3.8712010109078911
+      },
+      {
+         "name" : "@bvand",
+         "weight" : 2.4849066497880004
+      },
+      {
+         "name" : "@bvashr",
+         "weight" : 3.8712010109078911
+      }
+   ]
+}
+

@@ -1,0 +1,43 @@
+{
+   "default" : 10,
+   "depth" : 0,
+   "weight" : [
+      {
+         "name" : "@str.++",
+         "weight" : 2.1379359131471696
+      },
+      {
+         "name" : "@Param",
+         "weight" : 1.5560523681154577
+      },
+      {
+         "name" : "@replace",
+         "weight" : 4.3351604904833891
+      },
+      {
+         "name" : "@str.len",
+         "weight" : 3.9611940494345954
+      },
+      {
+         "name" : "@indexof",
+         "weight" : 3.0724800853306751
+      },
+      {
+         "name" : "@move",
+         "weight" : 2.72805086780888
+      },
+      {
+         "name" : "@delete",
+         "weight" : 7.6908954980687865
+      },
+      {
+         "name" : "@Const",
+         "weight" : 0.89630891719228789
+      },
+      {
+         "name" : "@substr",
+         "weight" : 2.1302138670532593
+      }
+   ]
+}
+

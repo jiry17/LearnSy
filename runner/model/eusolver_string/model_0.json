@@ -1,0 +1,75 @@
+{
+   "default" : 10,
+   "depth" : 0,
+   "weight" : [
+      {
+         "name" : "@str.contains",
+         "weight" : 4.0269145980603227
+      },
+      {
+         "name" : "@int.to.str",
+         "weight" : 3.2265837472810355
+      },
+      {
+         "name" : "@str.++",
+         "weight" : 2.7124847981700762
+      },
+      {
+         "name" : "@str.suffixof",
+         "weight" : 3.8229315444851886
+      },
+      {
+         "name" : "@-",
+         "weight" : 5.2580160697745111
+      },
+      {
+         "name" : "@+",
+         "weight" : 3.6946220958418174
+      },
+      {
+         "name" : "@str.substr",
+         "weight" : 2.5516339257729981
+      },
+      {
+         "name" : "@Const",
+         "weight" : 1.0344724024147423
+      },
+      {
+         "name" : "@str.prefixof",
+         "weight" : 4.3517756737538571
+      },
+      {
+         "name" : "@str.indexof",
+         "weight" : 4.3619280452178755
+      },
+      {
+         "name" : "@str.to.int",
+         "weight" : 5.363376585432337
+      },
+      {
+         "name" : "@str.replace",
+         "weight" : 4.0416207454500181
+      },
+      {
+         "name" : "@=",
+         "weight" : 4.8360216597151364
+      },
+      {
+         "name" : "@Param",
+         "weight" : 1.4642136957337959
+      },
+      {
+         "name" : "@str.len",
+         "weight" : 4.0269145980603227
+      },
+      {
+         "name" : "@ite",
+         "weight" : 2.8376479411240818
+      },
+      {
+         "name" : "@str.at",
+         "weight" : 3.5997879931709784
+      }
+   ]
+}
+

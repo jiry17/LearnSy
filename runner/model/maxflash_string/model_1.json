@@ -1,0 +1,59 @@
+{
+   "default" : 10,
+   "depth" : 0,
+   "weight" : [
+      {
+         "name" : "@-",
+         "weight" : 3.7568025712277198
+      },
+      {
+         "name" : "@int.to.str",
+         "weight" : 5.7811843357245287
+      },
+      {
+         "name" : "@+",
+         "weight" : 3.3789694017816414
+      },
+      {
+         "name" : "@str.replace",
+         "weight" : 3.8769468830697833
+      },
+      {
+         "name" : "@str.indexof",
+         "weight" : 2.9041283538041358
+      },
+      {
+         "name" : "@str.prefixof",
+         "weight" : 7.7270944847798422
+      },
+      {
+         "name" : "@Param",
+         "weight" : 1.4700656704736981
+      },
+      {
+         "name" : "@str.len",
+         "weight" : 3.4644146077385263
+      },
+      {
+         "name" : "@str.to.int",
+         "weight" : 6.6284821961117322
+      },
+      {
+         "name" : "@Const",
+         "weight" : 0.93325472992759895
+      },
+      {
+         "name" : "@str.substr",
+         "weight" : 2.2703498816372867
+      },
+      {
+         "name" : "@str.contains",
+         "weight" : 6.3408001236599514
+      },
+      {
+         "name" : "@str.++",
+         "weight" : 2.2760560312141411
+      }
+   ]
+}
+

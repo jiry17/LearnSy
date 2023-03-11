@@ -1,0 +1,47 @@
+{
+   "default" : 10,
+   "depth" : 0,
+   "weight" : [
+      {
+         "name" : "@bvnot",
+         "weight" : 2.7408400239252009
+      },
+      {
+         "name" : "@bvxor",
+         "weight" : 2.7408400239252009
+      },
+      {
+         "name" : "@Param",
+         "weight" : 0.66139848224536502
+      },
+      {
+         "name" : "@bveq",
+         "weight" : 3.4339872044851463
+      },
+      {
+         "name" : "@bvuleq",
+         "weight" : 3.4339872044851463
+      },
+      {
+         "name" : "@bvand",
+         "weight" : 1.8245492920510458
+      },
+      {
+         "name" : "@bvinc",
+         "weight" : 3.4339872044851463
+      },
+      {
+         "name" : "@bvneg",
+         "weight" : 3.4339872044851463
+      },
+      {
+         "name" : "@bvdec",
+         "weight" : 3.4339872044851463
+      },
+      {
+         "name" : "@bvulq",
+         "weight" : 3.4339872044851463
+      }
+   ]
+}
+

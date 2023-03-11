@@ -1,0 +1,2908 @@
+{
+    "learnsy": {
+        "t4": [
+            {
+                "status": true,
+                "result": [
+                    "8 {func:!(>=(Param3,Param0))}"
+                ],
+                "time": 0.529731,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "8 {func:>(Param0,Param3)}"
+                ],
+                "time": 0.561627,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "7 {func:!(>=(Param3,Param0))}"
+                ],
+                "time": 0.536096,
+                "seed": 1314
+            }
+        ],
+        "t5": [
+            {
+                "status": true,
+                "result": [
+                    "9 {func:&&(&&(Param2,<(0,1)),>=(Param1,Param0))}"
+                ],
+                "time": 9.066465,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {func:&&(>=(Param1,Param0),Param2)}"
+                ],
+                "time": 9.12227,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "7 {func:&&(<=(Param0,Param1),Param2)}"
+                ],
+                "time": 7.709251,
+                "seed": 1314
+            }
+        ],
+        "t17": [
+            {
+                "status": true,
+                "result": [
+                    "7 {f_255-8-255-24:=(Param0,-(Param1,1))}"
+                ],
+                "time": 26.40285,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "8 {f_255-8-255-24:=(+(+(Param1,1),0),+(Param1,-(Param1,Param0)))}"
+                ],
+                "time": 25.994537,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "15 {f_255-8-255-24:=(1,+(-(Param1,Param0),0))}"
+                ],
+                "time": 93.218018,
+                "seed": 1314
+            }
+        ],
+        "t1": [
+            {
+                "status": true,
+                "result": [
+                    "10 {func:=(Param10,Param7)}"
+                ],
+                "time": 1.088847,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {func:=(Param7,Param10)}"
+                ],
+                "time": 1.09147,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "11 {func:!(!(=(Param10,Param7)))}"
+                ],
+                "time": 1.526387,
+                "seed": 1314
+            }
+        ],
+        "t13": [
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 0.487479,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 0.550042,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 0.602271,
+                "seed": 1314
+            }
+        ],
+        "t11": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param1,||(!(Param1),&&(Param0,Param1))))}"
+                ],
+                "time": 0.852182,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param1,||(!(Param1),&&(Param0,Param1))))}"
+                ],
+                "time": 0.974476,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param1,||(!(Param1),&&(Param0,Param1))))}"
+                ],
+                "time": 1.04301,
+                "seed": 1314
+            }
+        ],
+        "t15": [
+            {
+                "status": true,
+                "result": [
+                    "17 {func:||(&&(&&(=(Param0,Param1),Param2),Param2),&&(&&(!(Param2),||(Param2,Param2)),Param2))}"
+                ],
+                "time": 24.020491,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "17 {func:||(&&(&&(=(Param0,Param1),||(Param2,Param2)),Param2),&&(&&(!(Param2),||(Param2,Param2)),!(=(0,Param1))))}"
+                ],
+                "time": 20.663,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "18 {func:||(||(&&(=(Param0,Param1),||(Param2,Param2)),&&(=(0,1),=(1,Param1))),&&(!(=(1,1)),Param2))}"
+                ],
+                "time": 26.306094,
+                "seed": 1314
+            }
+        ],
+        "t9": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>=(Param0,0)}"
+                ],
+                "time": 1.858391,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:&&(||(>=(Param0,0),<(99,99)),<(0,99))}"
+                ],
+                "time": 2.067216,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>=(Param0,0)}"
+                ],
+                "time": 1.907751,
+                "seed": 1314
+            }
+        ],
+        "t8": [
+            {
+                "status": true,
+                "result": [
+                    "15 {func:&&(<(Param2,Param0),=(Param1,Param1))}"
+                ],
+                "time": 12.754289,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "16 {func:&&(<=(1,1),<(Param2,Param0))}"
+                ],
+                "time": 14.758215,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "19 {func:||(=(1,0),<(Param2,Param0))}"
+                ],
+                "time": 20.112062,
+                "seed": 1314
+            }
+        ],
+        "t2": [
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,0)}"
+                ],
+                "time": 1.167544,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,0)}"
+                ],
+                "time": 1.274493,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,0)}"
+                ],
+                "time": 1.407797,
+                "seed": 1314
+            }
+        ],
+        "t20": [
+            {
+                "status": true,
+                "result": [
+                    "10 {f_68-13-68-36:&&(!(=(0,Param0)),!(||(Param2,Param2)))}"
+                ],
+                "time": 12.569043,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "7 {f_68-13-68-36:&&(!(=(0,Param0)),!(||(Param2,Param2)))}"
+                ],
+                "time": 10.167991,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "7 {f_68-13-68-36:&&(&&(!(Param2),!(Param2)),!(=(0,Param0)))}"
+                ],
+                "time": 8.867729,
+                "seed": 1314
+            }
+        ],
+        "t7": [
+            {
+                "status": true,
+                "result": [
+                    "9 {func:>=(+(Param1,-(0,Param0)),0)}"
+                ],
+                "time": 41.745379,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "8 {func:>(-(+(Param1,Param1),+(Param1,Param0)),-(-(Param0,1),Param0))}"
+                ],
+                "time": 48.539766,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "7 {func:>=(-(1,-(Param0,1)),+(-(1,Param1),1))}"
+                ],
+                "time": 35.85864,
+                "seed": 1314
+            }
+        ],
+        "t6": [
+            {
+                "status": true,
+                "result": [
+                    "6 {func:<(Param0,Param1)}"
+                ],
+                "time": 0.180241,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "6 {func:<(Param0,Param1)}"
+                ],
+                "time": 0.201577,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "6 {func:<(Param0,Param1)}"
+                ],
+                "time": 0.228884,
+                "seed": 1314
+            }
+        ],
+        "t3": [
+            {
+                "status": true,
+                "result": [
+                    "22 {func:||(&&(=(Param0,Param1),=(1,0)),&&(=(Param0,Param2),=(Param3,Param3)))}"
+                ],
+                "time": 32.309118,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "20 {func:=(Param0,Param2)}"
+                ],
+                "time": 30.249614,
+                "seed": 520
+            },
+            {
+                "status": false,
+                "seed": 1314
+            }
+        ],
+        "t12": [
+            {
+                "status": true,
+                "result": [
+                    "2 {func:>(Param0,1)}"
+                ],
+                "time": 0.059941,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 0.109002,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 0.110218,
+                "seed": 1314
+            }
+        ],
+        "t10": [
+            {
+                "status": true,
+                "result": [
+                    "11 {f_35-7-35-46:>=(-(0,1),-(-(Param1,Param0),-(1,Param2)))}"
+                ],
+                "time": 198.320499,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "11 {f_35-7-35-46:>=(-(Param2,Param1),+(-(Param2,Param0),Param2))}"
+                ],
+                "time": 146.511315,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "10 {f_35-7-35-46:>=(+(Param1,Param0),-(+(Param1,Param2),-(0,Param1)))}"
+                ],
+                "time": 216.753188,
+                "seed": 1314
+            }
+        ]
+    },
+    "randomsy": {
+        "t4": [
+            {
+                "status": true,
+                "result": [
+                    "7 {func:>(Param0,Param3)}"
+                ],
+                "time": 0.34906,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "8 {func:>(Param0,Param3)}"
+                ],
+                "time": 0.362578,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "6 {func:>(Param0,Param3)}"
+                ],
+                "time": 0.471986,
+                "seed": 1314
+            }
+        ],
+        "t5": [
+            {
+                "status": true,
+                "result": [
+                    "11 {func:&&(<=(Param0,Param1),&&(&&(<=(0,1),<(0,1)),Param2))}"
+                ],
+                "time": 1.946713,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {func:&&(&&(&&(Param2,<=(Param0,Param1)),Param2),Param2)}"
+                ],
+                "time": 1.431199,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "6 {func:&&(Param2,&&(&&(<=(0,1),<(0,1)),&&(>=(1,0),>=(Param1,Param0))))}"
+                ],
+                "time": 0.847996,
+                "seed": 1314
+            }
+        ],
+        "t15": [
+            {
+                "status": true,
+                "result": [
+                    "19 {func:&&(Param2,||(&&(!(Param2),||(Param2,Param2)),||(=(Param0,Param1),!(Param2))))}"
+                ],
+                "time": 13.973144,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "19 {func:||(||(&&(=(Param0,Param1),Param2),&&(!(Param2),||(Param2,Param2))),&&(&&(!(Param2),||(Param2,Param2)),Param2))}"
+                ],
+                "time": 16.767761,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "20 {func:||(&&(&&(=(Param1,Param0),||(Param2,Param2)),!(=(1,0))),&&(!(Param2),Param2))}"
+                ],
+                "time": 16.318184,
+                "seed": 1314
+            }
+        ],
+        "t1": [
+            {
+                "status": true,
+                "result": [
+                    "8 {func:=(Param10,Param7)}"
+                ],
+                "time": 0.548637,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "6 {func:=(Param10,Param7)}"
+                ],
+                "time": 0.479383,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "6 {func:!(!(=(Param7,Param10)))}"
+                ],
+                "time": 0.348175,
+                "seed": 1314
+            }
+        ],
+        "t13": [
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 0.049875,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 0.054457,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 0.065433,
+                "seed": 1314
+            }
+        ],
+        "t11": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(&&(Param0,||(Param1,Param1)),Param1))}"
+                ],
+                "time": 0.136956,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(&&(Param0,||(Param1,Param1)),Param1))}"
+                ],
+                "time": 0.169879,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(&&(Param0,||(Param1,Param1)),Param1))}"
+                ],
+                "time": 0.166937,
+                "seed": 1314
+            }
+        ],
+        "t8": [
+            {
+                "status": true,
+                "result": [
+                    "18 {func:||(<(1,1),<(Param2,Param0))}"
+                ],
+                "time": 2.260688,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "18 {func:&&(<(Param2,Param0),<=(1,1))}"
+                ],
+                "time": 2.809598,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "15 {func:<(Param2,Param0)}"
+                ],
+                "time": 2.255803,
+                "seed": 1314
+            }
+        ],
+        "t17": [
+            {
+                "status": true,
+                "result": [
+                    "5 {f_255-8-255-24:=(-(Param1,Param0),1)}"
+                ],
+                "time": 20.220505,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {f_255-8-255-24:=(-(-(Param1,Param0),Param0),-(1,+(Param0,0)))}"
+                ],
+                "time": 29.464805,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "10 {f_255-8-255-24:=(1,-(-(Param1,Param0),+(0,0)))}"
+                ],
+                "time": 52.242517,
+                "seed": 1314
+            }
+        ],
+        "t9": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>=(Param0,0)}"
+                ],
+                "time": 0.876169,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>=(Param0,0)}"
+                ],
+                "time": 1.139044,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>=(Param0,0)}"
+                ],
+                "time": 1.071397,
+                "seed": 1314
+            }
+        ],
+        "t2": [
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,0)}"
+                ],
+                "time": 0.185983,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,0)}"
+                ],
+                "time": 0.215713,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,0)}"
+                ],
+                "time": 0.207339,
+                "seed": 1314
+            }
+        ],
+        "t20": [
+            {
+                "status": true,
+                "result": [
+                    "8 {f_68-13-68-36:!(||(=(Param0,0),&&(Param2,Param2)))}"
+                ],
+                "time": 1.649194,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {f_68-13-68-36:!(||(||(Param2,Param2),=(Param0,0)))}"
+                ],
+                "time": 2.988623,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "11 {f_68-13-68-36:&&(||(!(Param2),!(Param2)),!(=(0,Param0)))}"
+                ],
+                "time": 2.899001,
+                "seed": 1314
+            }
+        ],
+        "t7": [
+            {
+                "status": true,
+                "result": [
+                    "11 {func:>=(-(+(1,1),-(Param0,Param1)),+(-(Param0,Param1),1))}"
+                ],
+                "time": 37.443627,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "8 {func:>=(-(-(1,Param0),1),+(0,-(0,Param1)))}"
+                ],
+                "time": 23.962192,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "10 {func:>=(Param1,Param0)}"
+                ],
+                "time": 49.916622,
+                "seed": 1314
+            }
+        ],
+        "t6": [
+            {
+                "status": true,
+                "result": [
+                    "5 {func:<(Param0,Param1)}"
+                ],
+                "time": 0.36379,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:<(Param0,Param1)}"
+                ],
+                "time": 0.078374,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:<(Param0,Param1)}"
+                ],
+                "time": 0.334498,
+                "seed": 1314
+            }
+        ],
+        "t3": [
+            {
+                "status": true,
+                "result": [
+                    "41 {func:&&(=(Param0,Param2),=(Param0,Param2))}"
+                ],
+                "time": 34.345082,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "51 {func:=(Param2,Param0)}"
+                ],
+                "time": 49.191194,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "45 {func:||(&&(=(Param0,Param2),=(0,0)),&&(=(Param2,Param0),=(Param0,1)))}"
+                ],
+                "time": 44.276033,
+                "seed": 1314
+            }
+        ],
+        "t12": [
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 0.082462,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 0.101349,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 0.12961,
+                "seed": 1314
+            }
+        ],
+        "t10": [
+            {
+                "status": true,
+                "result": [
+                    "9 {f_35-7-35-46:>(-(1,-(Param1,Param0)),Param2)}"
+                ],
+                "time": 114.804589,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {f_35-7-35-46:>(-(+(1,1),+(Param1,Param2)),-(+(1,Param1),+(Param1,Param0)))}"
+                ],
+                "time": 252.382831,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "8 {f_35-7-35-46:>(-(Param0,-(Param2,1)),Param1)}"
+                ],
+                "time": 165.951566,
+                "seed": 1314
+            }
+        ]
+    },
+    "samplesy3": {
+        "t4": [
+            {
+                "status": true,
+                "result": [
+                    "8 {func:>(Param0,Param3)}"
+                ],
+                "time": 24.67879,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "10 {func:>(Param0,Param3)}"
+                ],
+                "time": 31.06973,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {func:>(Param0,Param3)}"
+                ],
+                "time": 28.142294,
+                "seed": 1314
+            }
+        ],
+        "t5": [
+            {
+                "status": true,
+                "result": [
+                    "8 {func:&&(Param2,>=(Param1,Param0))}"
+                ],
+                "time": 25.642346,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "7 {func:&&(&&(Param2,<=(Param0,Param1)),Param2)}"
+                ],
+                "time": 22.648017,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {func:&&(Param2,<=(Param0,Param1))}"
+                ],
+                "time": 28.893446,
+                "seed": 1314
+            }
+        ],
+        "t17": [
+            {
+                "status": true,
+                "result": [
+                    "4 {f_255-8-255-24:=(-(-(0,Param1),-(1,Param0)),+(-(Param0,Param1),-(Param0,Param1)))}"
+                ],
+                "time": 28.924229,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "5 {f_255-8-255-24:=(+(+(Param1,1),+(1,Param0)),+(+(Param1,1),Param1))}"
+                ],
+                "time": 37.015408,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {f_255-8-255-24:=(+(0,-(0,Param0)),-(+(1,Param1),+(Param1,Param1)))}"
+                ],
+                "time": 24.440622,
+                "seed": 1314
+            }
+        ],
+        "t1": [
+            {
+                "status": true,
+                "result": [
+                    "10 {func:=(Param7,Param10)}"
+                ],
+                "time": 30.777822,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "10 {func:=(Param7,Param10)}"
+                ],
+                "time": 30.928694,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "7 {func:=(Param7,Param10)}"
+                ],
+                "time": 21.751414,
+                "seed": 1314
+            }
+        ],
+        "t15": [
+            {
+                "status": true,
+                "result": [
+                    "17 {func:!(!(&&(||(Param2,Param2),=(Param0,Param1))))}"
+                ],
+                "time": 62.57125,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "16 {func:&&(&&(&&(=(Param0,Param1),||(Param2,Param2)),Param2),=(Param1,Param0))}"
+                ],
+                "time": 61.211263,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "15 {func:&&(Param2,&&(||(||(Param2,Param2),=(Param1,1)),=(Param1,Param0)))}"
+                ],
+                "time": 57.867519,
+                "seed": 1314
+            }
+        ],
+        "t13": [
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 6.592203,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 6.514025,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 6.527807,
+                "seed": 1314
+            }
+        ],
+        "t11": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param0,Param1))}"
+                ],
+                "time": 12.528045,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param0,Param1))}"
+                ],
+                "time": 12.518574,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param0,Param1))}"
+                ],
+                "time": 12.719994,
+                "seed": 1314
+            }
+        ],
+        "t9": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>=(Param0,0)}"
+                ],
+                "time": 13.610763,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>=(Param0,0)}"
+                ],
+                "time": 13.611914,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:||(&&(||(<(0,0),<(0,99)),>=(Param0,0)),||(<(99,0),&&(>=(0,Param0),>=(0,99))))}"
+                ],
+                "time": 13.981784,
+                "seed": 1314
+            }
+        ],
+        "t8": [
+            {
+                "status": true,
+                "result": [
+                    "13 {func:<(Param2,Param0)}"
+                ],
+                "time": 40.453668,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "14 {func:<(Param2,Param0)}"
+                ],
+                "time": 43.706937,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "15 {func:<(Param2,Param0)}"
+                ],
+                "time": 47.138277,
+                "seed": 1314
+            }
+        ],
+        "t20": [
+            {
+                "status": true,
+                "result": [
+                    "9 {f_68-13-68-36:!(||(||(Param2,Param2),=(Param0,0)))}"
+                ],
+                "time": 29.282723,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "10 {f_68-13-68-36:!(||(&&(Param2,Param2),=(0,Param0)))}"
+                ],
+                "time": 32.611401,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "8 {f_68-13-68-36:&&(&&(!(Param2),!(Param2)),!(=(0,Param0)))}"
+                ],
+                "time": 26.7061,
+                "seed": 1314
+            }
+        ],
+        "t2": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>(Param0,0)}"
+                ],
+                "time": 12.81567,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>(Param0,0)}"
+                ],
+                "time": 12.880316,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>(Param0,0)}"
+                ],
+                "time": 12.948504,
+                "seed": 1314
+            }
+        ],
+        "t7": [
+            {
+                "status": true,
+                "result": [
+                    "9 {func:>=(0,-(+(Param0,Param1),+(Param1,Param1)))}"
+                ],
+                "time": 79.210081,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {func:>=(Param1,Param0)}"
+                ],
+                "time": 83.609198,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "7 {func:>(+(0,+(1,1)),+(+(Param0,1),-(0,Param1)))}"
+                ],
+                "time": 68.033236,
+                "seed": 1314
+            }
+        ],
+        "t6": [
+            {
+                "status": true,
+                "result": [
+                    "5 {func:<(Param0,Param1)}"
+                ],
+                "time": 15.250013,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "5 {func:<(Param0,Param1)}"
+                ],
+                "time": 15.279339,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "5 {func:<(Param0,Param1)}"
+                ],
+                "time": 15.357981,
+                "seed": 1314
+            }
+        ],
+        "t3": [
+            {
+                "status": true,
+                "result": [
+                    "18 {func:=(Param2,Param0)}"
+                ],
+                "time": 57.858943,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "20 {func:||(&&(=(Param2,Param0),=(1,1)),=(0,1))}"
+                ],
+                "time": 65.083887,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "15 {func:||(=(0,1),=(Param2,Param0))}"
+                ],
+                "time": 50.641572,
+                "seed": 1314
+            }
+        ],
+        "t12": [
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 9.155736,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 9.181388,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 9.199871,
+                "seed": 1314
+            }
+        ],
+        "t10": [
+            {
+                "status": true,
+                "result": [
+                    "14 {f_35-7-35-46:>(-(1,Param1),-(Param2,Param0))}"
+                ],
+                "time": 633.267569,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {f_35-7-35-46:>(+(Param0,-(1,Param1)),Param2)}"
+                ],
+                "time": 570.923367,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {f_35-7-35-46:>(-(-(1,Param1),-(0,1)),-(+(Param2,1),+(0,Param0)))}"
+                ],
+                "time": 555.239357,
+                "seed": 1314
+            }
+        ]
+    },
+    "samplesy5": {
+        "t4": [
+            {
+                "status": true,
+                "result": [
+                    "7 {func:!(!(>(Param0,Param3)))}"
+                ],
+                "time": 35.66912,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "7 {func:>(Param0,Param3)}"
+                ],
+                "time": 35.668491,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "7 {func:>(Param0,Param3)}"
+                ],
+                "time": 35.853921,
+                "seed": 1314
+            }
+        ],
+        "t5": [
+            {
+                "status": true,
+                "result": [
+                    "8 {func:&&(&&(&&(>=(0,0),>=(Param1,Param0)),Param2),<(0,1))}"
+                ],
+                "time": 41.797158,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "6 {func:&&(&&(<=(Param0,Param1),<=(Param1,Param1)),&&(Param2,Param2))}"
+                ],
+                "time": 31.701492,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "8 {func:&&(&&(>=(Param1,Param0),Param2),<=(1,1))}"
+                ],
+                "time": 42.869648,
+                "seed": 1314
+            }
+        ],
+        "t17": [
+            {
+                "status": true,
+                "result": [
+                    "6 {f_255-8-255-24:=(1,-(-(Param1,Param0),+(0,0)))}"
+                ],
+                "time": 58.510128,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {f_255-8-255-24:=(-(Param0,-(Param1,1)),0)}"
+                ],
+                "time": 34.345575,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "6 {f_255-8-255-24:=(+(-(0,Param0),-(Param1,1)),0)}"
+                ],
+                "time": 61.212721,
+                "seed": 1314
+            }
+        ],
+        "t15": [
+            {
+                "status": true,
+                "result": [
+                    "16 {func:||(!(!(=(0,1))),&&(&&(=(Param1,Param0),||(Param2,Param2)),Param2))}"
+                ],
+                "time": 89.015522,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "14 {func:&&(&&(&&(=(Param1,Param0),||(Param2,Param2)),Param2),!(!(=(Param1,Param0))))}"
+                ],
+                "time": 79.378292,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "14 {func:||(&&(&&(=(Param0,Param1),||(Param2,Param2)),Param2),&&(&&(!(Param2),&&(Param2,Param2)),Param2))}"
+                ],
+                "time": 82.567741,
+                "seed": 1314
+            }
+        ],
+        "t13": [
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 10.722327,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 10.740167,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 10.996745,
+                "seed": 1314
+            }
+        ],
+        "t1": [
+            {
+                "status": true,
+                "result": [
+                    "10 {func:!(!(=(Param7,Param10)))}"
+                ],
+                "time": 50.84835,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "11 {func:=(Param10,Param7)}"
+                ],
+                "time": 56.079371,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "11 {func:=(Param10,Param7)}"
+                ],
+                "time": 56.336774,
+                "seed": 1314
+            }
+        ],
+        "t11": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param0,Param1))}"
+                ],
+                "time": 20.6163,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param0,Param1))}"
+                ],
+                "time": 20.632959,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param0,Param1))}"
+                ],
+                "time": 20.904215,
+                "seed": 1314
+            }
+        ],
+        "t9": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>=(Param0,0)}"
+                ],
+                "time": 21.565228,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>=(Param0,0)}"
+                ],
+                "time": 21.986457,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:&&(<(1,99),||(<(99,0),||(>=(Param0,0),>=(0,99))))}"
+                ],
+                "time": 21.815764,
+                "seed": 1314
+            }
+        ],
+        "t8": [
+            {
+                "status": true,
+                "result": [
+                    "12 {func:||(<(Param2,Param0),<(1,1))}"
+                ],
+                "time": 61.387201,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "14 {func:<(Param2,Param0)}"
+                ],
+                "time": 71.71121,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "21 {func:<(Param2,Param0)}"
+                ],
+                "time": 108.625842,
+                "seed": 1314
+            }
+        ],
+        "t2": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>(Param0,0)}"
+                ],
+                "time": 20.886406,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:&&(>(Param0,0),>(Param0,0))}"
+                ],
+                "time": 21.028352,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>(Param0,0)}"
+                ],
+                "time": 21.254279,
+                "seed": 1314
+            }
+        ],
+        "t20": [
+            {
+                "status": true,
+                "result": [
+                    "12 {f_68-13-68-36:!(||(&&(Param2,Param2),=(Param0,0)))}"
+                ],
+                "time": 63.578671,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "11 {f_68-13-68-36:!(||(&&(Param2,Param2),=(0,Param0)))}"
+                ],
+                "time": 57.474834,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {f_68-13-68-36:!(||(&&(Param2,Param2),=(Param0,0)))}"
+                ],
+                "time": 47.349582,
+                "seed": 1314
+            }
+        ],
+        "t7": [
+            {
+                "status": true,
+                "result": [
+                    "9 {func:>=(Param1,Param0)}"
+                ],
+                "time": 99.072948,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "11 {func:>(+(+(Param1,1),-(1,Param0)),-(1,0))}"
+                ],
+                "time": 124.290889,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "10 {func:>(-(+(1,Param1),0),Param0)}"
+                ],
+                "time": 96.838085,
+                "seed": 1314
+            }
+        ],
+        "t6": [
+            {
+                "status": true,
+                "result": [
+                    "5 {func:<(Param0,Param1)}"
+                ],
+                "time": 25.256795,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "5 {func:<(Param0,Param1)}"
+                ],
+                "time": 25.296912,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "5 {func:<(Param0,Param1)}"
+                ],
+                "time": 25.346525,
+                "seed": 1314
+            }
+        ],
+        "t3": [
+            {
+                "status": true,
+                "result": [
+                    "18 {func:&&(||(=(0,0),=(Param3,1)),&&(=(Param2,Param0),=(0,0)))}"
+                ],
+                "time": 94.562815,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "21 {func:=(Param2,Param0)}"
+                ],
+                "time": 111.467564,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "23 {func:||(=(Param0,Param2),&&(=(Param0,Param1),=(0,1)))}"
+                ],
+                "time": 122.25149,
+                "seed": 1314
+            }
+        ],
+        "t12": [
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 15.160154,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 15.173306,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 15.21261,
+                "seed": 1314
+            }
+        ],
+        "t10": [
+            {
+                "status": true,
+                "result": [
+                    "11 {f_35-7-35-46:>=(-(-(0,Param2),-(Param0,Param2)),-(+(Param2,Param1),+(Param0,Param0)))}"
+                ],
+                "time": 652.162712,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "10 {f_35-7-35-46:>(1,-(-(Param2,Param0),-(0,Param1)))}"
+                ],
+                "time": 367.054412,
+                "seed": 520
+            },
+            {
+                "status": false,
+                "seed": 1314
+            }
+        ]
+    },
+    "samplesy10": {
+        "t5": [
+            {
+                "status": true,
+                "result": [
+                    "8 {func:&&(Param2,&&(&&(Param2,<=(0,1)),>=(Param1,Param0)))}"
+                ],
+                "time": 82.142095,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "8 {func:&&(>=(1,0),&&(Param2,<=(Param0,Param1)))}"
+                ],
+                "time": 82.995781,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "10 {func:&&(&&(&&(>=(Param1,Param0),Param2),Param2),Param2)}"
+                ],
+                "time": 104.152259,
+                "seed": 1314
+            }
+        ],
+        "t4": [
+            {
+                "status": true,
+                "result": [
+                    "9 {func:!(!(>(Param0,Param3)))}"
+                ],
+                "time": 90.843722,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "11 {func:>(Param0,Param3)}"
+                ],
+                "time": 111.270996,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "7 {func:>(Param0,Param3)}"
+                ],
+                "time": 70.96644,
+                "seed": 1314
+            }
+        ],
+        "t17": [
+            {
+                "status": true,
+                "result": [
+                    "4 {f_255-8-255-24:=(+(+(Param1,Param0),+(1,1)),+(1,+(Param1,Param1)))}"
+                ],
+                "time": 52.413146,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "6 {f_255-8-255-24:=(+(-(1,Param1),0),-(1,+(1,Param0)))}"
+                ],
+                "time": 84.573597,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {f_255-8-255-24:=(-(Param1,Param1),+(-(0,Param1),+(1,Param0)))}"
+                ],
+                "time": 152.312142,
+                "seed": 1314
+            }
+        ],
+        "t1": [
+            {
+                "status": true,
+                "result": [
+                    "10 {func:=(Param7,Param10)}"
+                ],
+                "time": 100.84158,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "5 {func:=(Param10,Param7)}"
+                ],
+                "time": 50.49021,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {func:=(Param10,Param7)}"
+                ],
+                "time": 91.200696,
+                "seed": 1314
+            }
+        ],
+        "t15": [
+            {
+                "status": true,
+                "result": [
+                    "14 {func:||(&&(!(!(Param2)),&&(=(Param0,Param1),||(Param2,Param2))),=(1,0))}"
+                ],
+                "time": 154.094306,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "14 {func:||(&&(&&(=(Param1,Param0),||(Param2,Param2)),Param2),&&(&&(!(Param2),=(Param1,0)),Param2))}"
+                ],
+                "time": 151.218298,
+                "seed": 520
+            },
+            {
+                "status": false,
+                "seed": 1314
+            }
+        ],
+        "t13": [
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 20.687893,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 20.776319,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 21.00774,
+                "seed": 1314
+            }
+        ],
+        "t11": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param0,Param1))}"
+                ],
+                "time": 40.585301,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param0,Param1))}"
+                ],
+                "time": 40.635984,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param0,Param1))}"
+                ],
+                "time": 40.906229,
+                "seed": 1314
+            }
+        ],
+        "t9": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>=(Param0,0)}"
+                ],
+                "time": 41.614888,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>=(Param0,0)}"
+                ],
+                "time": 41.77136,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>=(Param0,0)}"
+                ],
+                "time": 42.022892,
+                "seed": 1314
+            }
+        ],
+        "t8": [
+            {
+                "status": true,
+                "result": [
+                    "12 {func:||(<(1,1),<(Param2,Param0))}"
+                ],
+                "time": 121.373734,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "12 {func:<(Param2,Param0)}"
+                ],
+                "time": 121.5011,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "17 {func:!(<=(Param0,Param2))}"
+                ],
+                "time": 172.859813,
+                "seed": 1314
+            }
+        ],
+        "t2": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:&&(>(1,0),||(&&(>(1,1),>(1,1)),||(>(0,0),>(Param0,0))))}"
+                ],
+                "time": 40.862968,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>(Param0,0)}"
+                ],
+                "time": 40.94936,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>(Param0,0)}"
+                ],
+                "time": 41.190658,
+                "seed": 1314
+            }
+        ],
+        "t20": [
+            {
+                "status": true,
+                "result": [
+                    "10 {f_68-13-68-36:&&(!(=(Param0,0)),||(=(Param0,0),!(Param2)))}"
+                ],
+                "time": 102.387839,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "7 {f_68-13-68-36:&&(!(=(0,Param0)),!(||(Param2,Param2)))}"
+                ],
+                "time": 71.414371,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {f_68-13-68-36:&&(!(=(0,Param0)),||(=(56,46),!(Param2)))}"
+                ],
+                "time": 92.731312,
+                "seed": 1314
+            }
+        ],
+        "t7": [
+            {
+                "status": true,
+                "result": [
+                    "10 {func:>(+(1,Param1),Param0)}"
+                ],
+                "time": 133.398177,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "10 {func:>(+(Param1,+(1,1)),+(1,Param0))}"
+                ],
+                "time": 146.018206,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "10 {func:>=(+(-(1,Param0),-(0,1)),-(1,+(1,Param1)))}"
+                ],
+                "time": 164.2709,
+                "seed": 1314
+            }
+        ],
+        "t6": [
+            {
+                "status": true,
+                "result": [
+                    "5 {func:<(Param0,Param1)}"
+                ],
+                "time": 50.26305,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "5 {func:<(Param0,Param1)}"
+                ],
+                "time": 50.289216,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "5 {func:<(Param0,Param1)}"
+                ],
+                "time": 50.345065,
+                "seed": 1314
+            }
+        ],
+        "t3": [
+            {
+                "status": true,
+                "result": [
+                    "19 {func:=(Param2,Param0)}"
+                ],
+                "time": 194.711403,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "20 {func:||(&&(=(Param0,Param2),=(Param3,Param3)),&&(=(Param1,Param2),=(Param1,Param0)))}"
+                ],
+                "time": 205.404523,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "24 {func:&&(||(=(Param2,Param0),=(Param3,0)),=(Param2,Param0))}"
+                ],
+                "time": 248.872627,
+                "seed": 1314
+            }
+        ],
+        "t12": [
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 30.159474,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 30.169495,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 30.219325,
+                "seed": 1314
+            }
+        ],
+        "t10": [
+            {
+                "status": true,
+                "result": [
+                    "10 {f_35-7-35-46:>(-(-(1,Param0),-(Param1,Param0)),-(+(Param2,1),+(Param0,1)))}"
+                ],
+                "time": 734.472166,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "11 {f_35-7-35-46:>(1,-(Param1,-(Param0,Param2)))}"
+                ],
+                "time": 454.029355,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "12 {f_35-7-35-46:>=(Param0,+(Param1,Param2))}"
+                ],
+                "time": 999.287756,
+                "seed": 1314
+            }
+        ]
+    },
+    "samplesy15": {
+        "t5": [
+            {
+                "status": true,
+                "result": [
+                    "7 {func:&&(>=(Param1,Param0),Param2)}"
+                ],
+                "time": 106.739519,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "7 {func:&&(Param2,&&(&&(<=(1,1),>=(Param1,Param0)),&&(Param2,Param2)))}"
+                ],
+                "time": 107.253319,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "8 {func:&&(>(1,0),&&(Param2,&&(>=(Param1,Param0),<(0,1))))}"
+                ],
+                "time": 121.994394,
+                "seed": 1314
+            }
+        ],
+        "t4": [
+            {
+                "status": true,
+                "result": [
+                    "8 {func:>(Param0,Param3)}"
+                ],
+                "time": 120.752307,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {func:>(Param0,Param3)}"
+                ],
+                "time": 136.062764,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {func:>(Param0,Param3)}"
+                ],
+                "time": 135.923004,
+                "seed": 1314
+            }
+        ],
+        "t17": [
+            {
+                "status": true,
+                "result": [
+                    "5 {f_255-8-255-24:=(Param1,-(+(1,Param1),-(Param1,Param0)))}"
+                ],
+                "time": 96.191017,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "5 {f_255-8-255-24:=(+(+(Param0,Param1),+(1,Param0)),+(+(Param0,Param1),+(0,Param1)))}"
+                ],
+                "time": 94.196438,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {f_255-8-255-24:=(-(Param1,-(Param0,Param1)),+(+(0,1),Param1))}"
+                ],
+                "time": 59.987496,
+                "seed": 1314
+            }
+        ],
+        "t1": [
+            {
+                "status": true,
+                "result": [
+                    "8 {func:!(!(=(Param7,Param10)))}"
+                ],
+                "time": 120.587642,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {func:=(Param10,Param7)}"
+                ],
+                "time": 135.927481,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "11 {func:=(Param7,Param10)}"
+                ],
+                "time": 166.056938,
+                "seed": 1314
+            }
+        ],
+        "t15": [
+            {
+                "status": true,
+                "result": [
+                    "14 {func:||(&&(&&(=(Param1,Param0),||(Param2,Param2)),Param2),&&(&&(!(Param2),||(Param2,Param2)),Param2))}"
+                ],
+                "time": 219.658432,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "18 {func:&&(!(||(=(1,0),=(0,1))),&&(=(Param0,Param1),Param2))}"
+                ],
+                "time": 283.599147,
+                "seed": 520
+            },
+            {
+                "status": false,
+                "seed": 1314
+            }
+        ],
+        "t13": [
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 30.705223,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 30.731467,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 30.699161,
+                "seed": 1314
+            }
+        ],
+        "t11": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param0,Param1))}"
+                ],
+                "time": 60.608651,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param0,Param1))}"
+                ],
+                "time": 60.665281,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param0,Param1))}"
+                ],
+                "time": 60.600566,
+                "seed": 1314
+            }
+        ],
+        "t9": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>=(Param0,0)}"
+                ],
+                "time": 61.659348,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>=(Param0,0)}"
+                ],
+                "time": 61.676084,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:&&(<(1,99),||(<(99,0),||(>=(0,1),>=(Param0,0))))}"
+                ],
+                "time": 61.596002,
+                "seed": 1314
+            }
+        ],
+        "t8": [
+            {
+                "status": true,
+                "result": [
+                    "13 {func:<(Param2,Param0)}"
+                ],
+                "time": 196.527258,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "19 {func:||(<(1,1),<(Param2,Param0))}"
+                ],
+                "time": 287.611808,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "15 {func:||(=(1,0),<(Param2,Param0))}"
+                ],
+                "time": 226.76357,
+                "seed": 1314
+            }
+        ],
+        "t2": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>(Param0,0)}"
+                ],
+                "time": 60.879058,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:&&(>(1,0),>(Param0,0))}"
+                ],
+                "time": 60.944636,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>(Param0,0)}"
+                ],
+                "time": 60.860316,
+                "seed": 1314
+            }
+        ],
+        "t20": [
+            {
+                "status": true,
+                "result": [
+                    "11 {f_68-13-68-36:&&(||(!(Param2),!(Param2)),!(=(0,Param0)))}"
+                ],
+                "time": 168.078906,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {f_68-13-68-36:&&(!(=(Param0,0)),!(&&(Param2,Param2)))}"
+                ],
+                "time": 137.480422,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "10 {f_68-13-68-36:&&(!(=(0,Param0)),!(Param2))}"
+                ],
+                "time": 151.882958,
+                "seed": 1314
+            }
+        ],
+        "t7": [
+            {
+                "status": true,
+                "result": [
+                    "10 {func:>(-(+(1,1),0),+(1,-(Param0,Param1)))}"
+                ],
+                "time": 201.656711,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "11 {func:>(+(Param1,+(Param1,1)),+(-(Param0,0),Param0))}"
+                ],
+                "time": 225.289818,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "8 {func:>(+(1,Param1),Param0)}"
+                ],
+                "time": 168.220451,
+                "seed": 1314
+            }
+        ],
+        "t6": [
+            {
+                "status": true,
+                "result": [
+                    "5 {func:<(Param0,Param1)}"
+                ],
+                "time": 75.263047,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "5 {func:<(Param0,Param1)}"
+                ],
+                "time": 75.28995,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "5 {func:<(Param0,Param1)}"
+                ],
+                "time": 75.26329,
+                "seed": 1314
+            }
+        ],
+        "t3": [
+            {
+                "status": true,
+                "result": [
+                    "20 {func:||(=(Param2,Param0),&&(=(1,0),=(Param0,Param0)))}"
+                ],
+                "time": 304.600328,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "19 {func:=(Param0,Param2)}"
+                ],
+                "time": 290.506763,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "17 {func:!(!(=(Param0,Param2)))}"
+                ],
+                "time": 258.963288,
+                "seed": 1314
+            }
+        ],
+        "t10": [
+            {
+                "status": true,
+                "result": [
+                    "11 {f_35-7-35-46:>(-(Param1,+(Param1,Param1)),-(Param2,+(Param0,1)))}"
+                ],
+                "time": 632.175774,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "11 {f_35-7-35-46:>=(-(-(Param1,1),-(Param2,Param0)),-(Param1,-(1,Param1)))}"
+                ],
+                "time": 1299.18351,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "11 {f_35-7-35-46:>(+(-(1,Param1),-(Param0,1)),+(Param2,-(0,1)))}"
+                ],
+                "time": 693.033633,
+                "seed": 1314
+            }
+        ],
+        "t12": [
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 45.150096,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 45.155391,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 45.160822,
+                "seed": 1314
+            }
+        ]
+    },
+    "samplesy120": {
+        "t4": [
+            {
+                "status": true,
+                "result": [
+                    "9 {func:>(Param0,Param3)}"
+                ],
+                "time": 1080.858068,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "10 {func:!(!(>(Param0,Param3)))}"
+                ],
+                "time": 1201.200067,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "6 {func:>(Param0,Param3)}"
+                ],
+                "time": 720.593248,
+                "seed": 1314
+            }
+        ],
+        "t5": [
+            {
+                "status": true,
+                "result": [
+                    "9 {func:&&(<=(Param0,Param1),Param2)}"
+                ],
+                "time": 1082.256341,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "6 {func:&&(&&(<=(0,1),>=(Param1,Param0)),Param2)}"
+                ],
+                "time": 721.819447,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {func:&&(&&(<=(1,1),<=(Param0,Param1)),Param2)}"
+                ],
+                "time": 1082.251705,
+                "seed": 1314
+            }
+        ],
+        "t17": [
+            {
+                "status": true,
+                "result": [
+                    "6 {f_255-8-255-24:=(-(1,+(0,Param1)),-(-(0,Param0),0))}"
+                ],
+                "time": 747.699116,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {f_255-8-255-24:=(-(+(Param1,0),Param0),1)}"
+                ],
+                "time": 496.325023,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {f_255-8-255-24:=(-(+(Param1,Param1),Param1),+(0,+(1,Param0)))}"
+                ],
+                "time": 503.744748,
+                "seed": 1314
+            }
+        ],
+        "t1": [
+            {
+                "status": true,
+                "result": [
+                    "10 {func:=(Param7,Param10)}"
+                ],
+                "time": 1200.850028,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "11 {func:=(Param7,Param10)}"
+                ],
+                "time": 1321.0518,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "11 {func:=(Param10,Param7)}"
+                ],
+                "time": 1321.020556,
+                "seed": 1314
+            }
+        ],
+        "t15": [
+            {
+                "status": true,
+                "result": [
+                    "17 {func:||(&&(&&(=(Param0,Param1),||(Param2,Param2)),Param2),&&(&&(!(Param2),||(Param2,Param2)),Param2))}"
+                ],
+                "time": 2052.961128,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "14 {func:||(&&(&&(=(Param1,Param0),||(Param2,Param2)),Param2),&&(&&(!(Param2),||(Param2,Param2)),Param2))}"
+                ],
+                "time": 1692.227127,
+                "seed": 520
+            },
+            {
+                "status": false,
+                "seed": 1314
+            }
+        ],
+        "t13": [
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 240.697169,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 240.746564,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "2 {func:!(!(!(Param0)))}"
+                ],
+                "time": 240.696711,
+                "seed": 1314
+            }
+        ],
+        "t11": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param0,Param1))}"
+                ],
+                "time": 480.588801,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param0,Param1))}"
+                ],
+                "time": 480.647912,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:!(&&(Param0,Param1))}"
+                ],
+                "time": 480.58615,
+                "seed": 1314
+            }
+        ],
+        "t9": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>=(Param0,0)}"
+                ],
+                "time": 481.648099,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>=(Param0,0)}"
+                ],
+                "time": 481.680877,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:&&(||(>=(Param0,0),<(99,99)),<(0,99))}"
+                ],
+                "time": 481.543935,
+                "seed": 1314
+            }
+        ],
+        "t8": [
+            {
+                "status": true,
+                "result": [
+                    "11 {func:||(<(Param2,Param0),<(Param2,Param2))}"
+                ],
+                "time": 1321.273361,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "17 {func:||(<(Param2,Param0),<=(1,0))}"
+                ],
+                "time": 2042.223311,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "14 {func:&&(<(Param2,Param0),<(0,1))}"
+                ],
+                "time": 1681.647929,
+                "seed": 1314
+            }
+        ],
+        "t2": [
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>(Param0,0)}"
+                ],
+                "time": 480.894048,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>(Param0,0)}"
+                ],
+                "time": 481.000564,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "4 {func:>(Param0,0)}"
+                ],
+                "time": 480.864438,
+                "seed": 1314
+            }
+        ],
+        "t20": [
+            {
+                "status": true,
+                "result": [
+                    "9 {f_68-13-68-36:!(||(=(Param0,0),||(Param2,Param2)))}"
+                ],
+                "time": 1082.196821,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "10 {f_68-13-68-36:&&(!(=(0,Param0)),!(||(Param2,Param2)))}"
+                ],
+                "time": 1202.331658,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {f_68-13-68-36:!(||(||(Param2,Param2),=(Param0,0)))}"
+                ],
+                "time": 1082.102533,
+                "seed": 1314
+            }
+        ],
+        "t7": [
+            {
+                "status": true,
+                "result": [
+                    "10 {func:>=(Param1,Param0)}"
+                ],
+                "time": 1258.17163,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "7 {func:>=(Param1,Param0)}"
+                ],
+                "time": 865.191668,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {func:>(+(1,1),-(+(1,Param0),+(0,Param1)))}"
+                ],
+                "time": 1120.301371,
+                "seed": 1314
+            }
+        ],
+        "t10": [
+            {
+                "status": true,
+                "result": [
+                    "11 {f_35-7-35-46:>=(+(-(0,0),+(Param0,1)),-(+(Param2,1),-(0,Param1)))}"
+                ],
+                "time": 1606.475804,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "10 {f_35-7-35-46:>=(+(Param1,-(0,Param2)),-(-(Param1,0),-(Param0,Param1)))}"
+                ],
+                "time": 2068.437096,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "9 {f_35-7-35-46:>=(+(Param0,Param1),-(+(Param2,Param1),-(0,Param1)))}"
+                ],
+                "time": 1476.52298,
+                "seed": 1314
+            }
+        ],
+        "t6": [
+            {
+                "status": true,
+                "result": [
+                    "5 {func:<(Param0,Param1)}"
+                ],
+                "time": 600.28225,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "5 {func:<(Param0,Param1)}"
+                ],
+                "time": 600.289728,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "5 {func:<(Param0,Param1)}"
+                ],
+                "time": 600.280884,
+                "seed": 1314
+            }
+        ],
+        "t12": [
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 360.159415,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 360.174041,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "3 {func:>(Param0,1)}"
+                ],
+                "time": 360.154867,
+                "seed": 1314
+            }
+        ],
+        "t3": [
+            {
+                "status": true,
+                "result": [
+                    "19 {func:&&(&&(=(Param0,Param2),=(Param2,Param2)),&&(=(Param2,Param0),=(Param2,Param2)))}"
+                ],
+                "time": 2283.991205,
+                "seed": 3
+            },
+            {
+                "status": true,
+                "result": [
+                    "19 {func:||(&&(=(1,Param1),=(Param2,Param0)),&&(=(Param2,Param0),=(1,1)))}"
+                ],
+                "time": 2285.767151,
+                "seed": 520
+            },
+            {
+                "status": true,
+                "result": [
+                    "17 {func:=(Param0,Param2)}"
+                ],
+                "time": 2043.923677,
+                "seed": 1314
+            }
+        ]
+    }
+}

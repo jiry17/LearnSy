@@ -1,0 +1,156 @@
+#!/usr/bin/env python3
+
+from show import *
+from config import RunnerConfig
+from executor import get_all_benchmark, execute
+from cache import *
+import argparse
+import os
+
+src_path = "SOURCEPATH"
+cache_dir = os.path.join(src_path, "runner", "cache")
+model_dir = os.path.join(src_path, "runner", "model")
+interactive_exe = os.path.join(src_path, "build", "executor", "run_interactive")
+non_interactive_exe = os.path.join(src_path, "build", "executor", "run_non_interactive")
+dataset_dir = os.path.join(src_path, "tests")
+
+time_limit = {"interactive": 3600, "non-interactive": 300}
+memory_limit = 8
+
+def command_builder(flags):
+    def build_command(exe, inp, oup, extra_flags):
+        command = exe + " --benchmark=" + inp + " --output=" + oup
+        for name, content in flags.items():
+            command += " --" + name + "=" + str(content)
+        for name, content in extra_flags.items():
+            command += " --" + name + "=" + str(content)
+        return command
+    return build_command
+
+def run_clia():
+    solver_list = ["polygen", "eusolver"]
+    selector_list = ["default", "learnsy"]
+
+    for solver in solver_list:
+        model_path = os.path.join(model_dir, solver + "_clia")
+        runner_list = [RunnerConfig(non_interactive_exe, time_limit=time_limit["non-interactive"], memory_limit=memory_limit,
+                                    builder=command_builder({"solver": solver, "selector": selector, "model": model_path}),
+                                    name=selector, repeat_num=repeat_num)
+                    for selector in selector_list]
+        benchmark_list = get_all_benchmark(os.path.join(dataset_dir, "clia"))
+        cache_path = os.path.join(cache_dir, solver + "_clia.json")
+        for runner in runner_list:
+            execute(runner, benchmark_list, cache_path, thread_num=thread_num)
+
+def run_ablation():
+    solver = "maxflash"
+    model_path = os.path.join(model_dir, solver + "_string")
+    ablation_list = [("learnsy", {"solver": solver, "selector": "learnsy", "model": model_path}),
+                     ("learnsyU", {"solver": solver, "selector": "learnsy"}),
+                     ("learnsy0", {"solver": solver, "selector": "learnsy", "model": model_path, "flatten": "0"})]
+    runner_list = []
+    for ablation_name, ablation_flag in ablation_list:
+        config = RunnerConfig(non_interactive_exe, time_limit=time_limit["non-interactive"], memory_limit=memory_limit,
+                              builder=command_builder(ablation_flag), name=ablation_name, repeat_num=repeat_num)
+        runner_list.append(config)
+
+    benchmark_list = get_all_benchmark(os.path.join(dataset_dir, "string"))
+    cache_path = os.path.join(cache_dir, solver + "_string.json")
+    for runner in runner_list:
+        execute(runner, benchmark_list, cache_path, thread_num=thread_num)
+
+
+def run_string():
+    solver_list = ["maxflash", "eusolver"]
+    selector_list = ["default", "learnsy", "significant"]
+
+    for solver in solver_list:
+        model_path = os.path.join(model_dir, solver + "_string")
+        runner_list = [RunnerConfig(non_interactive_exe, time_limit=time_limit["non-interactive"], memory_limit=memory_limit,
+                                    builder=command_builder({"solver": solver, "selector": selector, "model": model_path}),
+                                    name=selector, repeat_num=repeat_num)
+                       for selector in selector_list]
+
+        benchmark_list = get_all_benchmark(os.path.join(dataset_dir, "string"))
+        cache_path = os.path.join(cache_dir, solver + "_string.json")
+        for runner in runner_list:
+            execute(runner, benchmark_list, cache_path, thread_num=thread_num)
+
+def run_bv():
+    solver_list = ["eusolver"]
+    selector_list = ["default", "learnsy", "biased"]
+
+    for solver in solver_list:
+        model_path = os.path.join(model_dir, solver + "_bv")
+        runner_list = [RunnerConfig(non_interactive_exe, time_limit=time_limit["non-interactive"], memory_limit=memory_limit,
+                                    builder=command_builder({"solver": solver, "selector": selector, "model": model_path}),
+                                    name=selector, repeat_num=repeat_num)
+                       for selector in selector_list]
+        benchmark_list = get_all_benchmark(os.path.join(dataset_dir, "bv"))
+        cache_path = os.path.join(cache_dir, solver + "_bv.json")
+        for runner in runner_list:
+            execute(runner, benchmark_list, cache_path, thread_num=thread_num)
+
+def run_interactive():
+    for sub_name, sub_dataset in [("repair", "repair"), ("string", "string-interactive")]:
+        model_path = os.path.join(model_dir, "intsy_" + sub_name)
+        cache_path = os.path.join(cache_dir, "intsy_" + sub_name + ".json")
+
+        selector_list = [(selector, {"selector": selector, "model": model_path}) for selector in ["learnsy", "randomsy"]]
+        selector_list += [("samplesy" + str(limit), {"selector": "samplesy", "sample_time": str(limit), "model": model_path})
+                          for limit in [3, 5, 10, 15, 120]]
+        int_thread_num = min(thread_num, 2)
+
+        runner_list = [RunnerConfig(interactive_exe, time_limit=time_limit["interactive"], builder=command_builder(flags),
+                                    name=selector, repeat_num=repeat_num)
+                       for (selector, flags) in selector_list]
+
+        benchmark_list = get_all_benchmark(os.path.join(dataset_dir, sub_dataset))
+        for runner in runner_list:
+            execute(runner, benchmark_list, cache_path, thread_num=int_thread_num)
+
+def clear_all_cache():
+    for cache_file in os.listdir(cache_dir):
+        if ".json" not in cache_file or "bk" in cache_file: continue
+        remove_util(os.path.join(cache_dir, cache_file), lambda sname, tname, status: True)
+
+def produce_table3():
+    run_interactive()
+    draw_table3(cache_dir)
+
+def produce_table5():
+    run_clia()
+    run_string()
+    run_bv()
+    draw_table5(cache_dir)
+
+def produce_table6():
+    run_ablation()
+    draw_table6(cache_dir)
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-t', '--table', type=int, choices=[3, 5, 6], default=None)
+    parser.add_argument('--restart', dest="restart", action="store_true")
+    parser.set_defaults(restart=False)
+    parser.add_argument('-r', '--repeat-num', type=int, default=3, choices=[1, 2, 3])
+    parser.add_argument('-tn', '--thread-num', type=int, default=4)
+    return parser.parse_args()
+
+if __name__ == "__main__":
+    arg = parse_args()
+
+    repeat_num = arg.repeat_num
+    thread_num = arg.thread_num
+    if arg.restart:
+        clear_all_cache()
+
+    table_list = [3, 5, 6] if arg.table is None else [arg.table]
+
+    if 3 in table_list:
+        produce_table3()
+    if 5 in table_list:
+        produce_table5()
+    if 6 in table_list:
+        produce_table6()
+

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+PYPATH="python3"
+export EUPHONY_HOME="SOURCEPATH/thirdparty/my-euphony/"
+export Z3_LIBRARY_PATH="$EUPHONY_HOME/thirdparty/z3/build/python"
+
+if [ -z "$PYPATH" ]; then
+	echo "python3 not found"
+else
+	PYTHONPATH=$EUPHONY_HOME/thirdparty/libeusolver/build:$EUPHONY_HOME/thirdparty/z3/build/python "$PYPATH" $EUPHONY_HOME/bin/benchmarks.py "$1"
+fi
